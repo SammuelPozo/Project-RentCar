@@ -1,0 +1,68 @@
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\RentCar.exe.config
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\RentCar.exe
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\RentCar.pdb
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Properties.Resources.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.csproj.GenerateResource.cache
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.csproj.CoreCompileInputs.cache
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.exe
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.pdb
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\EntityFramework.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\EntityFramework.SqlServer.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\EntityFramework.xml
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\EntityFramework.SqlServer.xml
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Form1.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.csproj.CopyComplete
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmPrincipal.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmMarca.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmClientes.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmDevolucion.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmEmpleados.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmInspeccion.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmModelo.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmRenta.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmReporteria.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmTipoCombustible.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmTipoVehiculo.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.Formularios.FrmVehiculo.resources
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\DocumentFormat.OpenXml.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\SpreadsheetLight.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\System.Drawing.Common.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\System.IO.Packaging.dll
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\DocumentFormat.OpenXml.xml
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\SpreadsheetLight.xml
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\bin\Debug\System.IO.Packaging.xml
+E:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\Proyecto\RentCar\obj\Debug\RentCar.csprojAssemblyReference.cache
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\RentCar.exe.config
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\RentCar.exe
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\RentCar.pdb
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\DocumentFormat.OpenXml.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\EntityFramework.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\EntityFramework.SqlServer.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\SpreadsheetLight.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\System.Drawing.Common.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\System.IO.Packaging.dll
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\DocumentFormat.OpenXml.xml
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\EntityFramework.xml
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\EntityFramework.SqlServer.xml
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\SpreadsheetLight.xml
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\bin\Debug\System.IO.Packaging.xml
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.csproj.AssemblyReference.cache
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Form1.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmClientes.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmDevolucion.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmEmpleados.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmInspeccion.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmMarca.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmModelo.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmPrincipal.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmRenta.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmReporteria.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmTipoCombustible.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmTipoVehiculo.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Formularios.FrmVehiculo.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.Properties.Resources.resources
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.csproj.GenerateResource.cache
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.csproj.CoreCompileInputs.cache
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.csproj.CopyComplete
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.exe
+D:\Almacenamiento\Clases Apec\4to\Desarrollo de Software con Tecnologia Open Source I\RentCar - copia\obj\Debug\RentCar.pdb

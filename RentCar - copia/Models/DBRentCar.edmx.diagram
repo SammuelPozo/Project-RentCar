@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="467c69a486b74156848e150a1b09b0ae" Name="Diagram1" ZoomLevel="82">
+        <EntityTypeShape EntityType="RentCarDBModel.Marca" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentCarDBModel.Renta_Devolucion" Width="1.5" PointX="10.5" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentCarDBModel.Renta_Devolucion_Copia" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentCarDBModel.Tipo_combustible" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentCarDBModel.Tipo_vehiculo" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RentCarDBModel.Vehiculo" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="RentCarDBModel.fk_MarcaVehiculo" ManuallyRouted="false" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionvehiculo" ManuallyRouted="false" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionvehiculoCopia" ManuallyRouted="false" />
+        <AssociationConnector Association="RentCarDBModel.fk_TipoCombustible" ManuallyRouted="false" />
+        <AssociationConnector Association="RentCarDBModel.fk_TipoVehiculo" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RentCarDBModel.Modelo" Width="1.5" PointX="3" PointY="7" />
+        <AssociationConnector Association="RentCarDBModel.fk_Marca" />
+        <AssociationConnector Association="RentCarDBModel.fk_Modelo" />
+        <EntityTypeShape EntityType="RentCarDBModel.Empleado" Width="1.5" PointX="6.125" PointY="12.125" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionEmpleado" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionEmpleadoCopia" />
+        <EntityTypeShape EntityType="RentCarDBModel.Inspeccion" Width="1.5" PointX="8.375" PointY="11.375" />
+        <AssociationConnector Association="RentCarDBModel.fk_InspeccionEmpleado" />
+        <AssociationConnector Association="RentCarDBModel.fk_InspeccionVehiculo" />
+        <EntityTypeShape EntityType="RentCarDBModel.cliente" Width="1.5" PointX="5.25" PointY="2.125" />
+        <AssociationConnector Association="RentCarDBModel.fk_InspeccionCliente" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionCliente" />
+        <AssociationConnector Association="RentCarDBModel.fk_RentaDevolucionClienteCopia" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

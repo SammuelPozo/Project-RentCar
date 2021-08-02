@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBE9FEC6-4415-498B-A9E4-166421A2B6A1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RentCar</RootNamespace>
+    <AssemblyName>RentCar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.11.3.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>packages\DocumentFormat.OpenXml.2.11.3\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.5.0.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>packages\SpreadsheetLight.3.5.0\lib\netstandard2.0\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.5.0.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives, Version=4.0.2.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.FileSystem.Primitives.4.3.0\lib\net46\System.IO.FileSystem.Primitives.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.IO.Packaging, Version=4.0.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.IO.Packaging.4.7.0\lib\net46\System.IO.Packaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmDevolucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmDevolucion.Designer.cs">
+      <DependentUpon>FrmDevolucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmEmpleados.Designer.cs">
+      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmInspeccion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmInspeccion.Designer.cs">
+      <DependentUpon>FrmInspeccion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmMarca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmMarca.Designer.cs">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmModelo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmModelo.Designer.cs">
+      <DependentUpon>FrmModelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmRenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmRenta.Designer.cs">
+      <DependentUpon>FrmRenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmReporteria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmReporteria.Designer.cs">
+      <DependentUpon>FrmReporteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTipoCombustible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTipoCombustible.Designer.cs">
+      <DependentUpon>FrmTipoCombustible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmTipoVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmTipoVehiculo.Designer.cs">
+      <DependentUpon>FrmTipoVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FrmVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FrmVehiculo.Designer.cs">
+      <DependentUpon>FrmVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\cliente.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DBRentCar.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBRentCar.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DBRentCar.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\DBRentCar.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DBRentCar.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Empleado.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Inspeccion.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Marca.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Modelo.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Renta_Devolucion.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Renta_Devolucion_Copia.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tipo_combustible.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Tipo_vehiculo.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Vehiculo.cs">
+      <DependentUpon>DBRentCar.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RentCarDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RentCarDBDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RentCarDBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmClientes.resx">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmDevolucion.resx">
+      <DependentUpon>FrmDevolucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmEmpleados.resx">
+      <DependentUpon>FrmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmInspeccion.resx">
+      <DependentUpon>FrmInspeccion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmMarca.resx">
+      <DependentUpon>FrmMarca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmModelo.resx">
+      <DependentUpon>FrmModelo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmRenta.resx">
+      <DependentUpon>FrmRenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmReporteria.resx">
+      <DependentUpon>FrmReporteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTipoCombustible.resx">
+      <DependentUpon>FrmTipoCombustible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmTipoVehiculo.resx">
+      <DependentUpon>FrmTipoVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FrmVehiculo.resx">
+      <DependentUpon>FrmVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EntityDeploy Include="Models\DBRentCar.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>DBRentCar.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Models\DBRentCar.edmx.diagram">
+      <DependentUpon>DBRentCar.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="RentCarDBDataSet.xsc">
+      <DependentUpon>RentCarDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet.xss">
+      <DependentUpon>RentCarDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet1.xsc">
+      <DependentUpon>RentCarDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet1.xss">
+      <DependentUpon>RentCarDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet2.xsc">
+      <DependentUpon>RentCarDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet2.xss">
+      <DependentUpon>RentCarDBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet3.xsc">
+      <DependentUpon>RentCarDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet3.xss">
+      <DependentUpon>RentCarDBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet4.xsc">
+      <DependentUpon>RentCarDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet4.xss">
+      <DependentUpon>RentCarDBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet5.xsc">
+      <DependentUpon>RentCarDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet5.xss">
+      <DependentUpon>RentCarDBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet6.xsc">
+      <DependentUpon>RentCarDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet6.xss">
+      <DependentUpon>RentCarDBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet7.xsc">
+      <DependentUpon>RentCarDBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="RentCarDBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>RentCarDBDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="RentCarDBDataSet7.xss">
+      <DependentUpon>RentCarDBDataSet7.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Models\DBRentCar.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DBRentCar.Context.cs</LastGenOutput>
+      <DependentUpon>DBRentCar.edmx</DependentUpon>
+    </Content>
+    <Content Include="Models\DBRentCar.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>DBRentCar.edmx</DependentUpon>
+      <LastGenOutput>DBRentCar.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\car-service %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
